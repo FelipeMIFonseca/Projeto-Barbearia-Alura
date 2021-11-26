@@ -1,0 +1,124 @@
+.imagem-principal {
+  border-radius: 7px;
+  height: 160px;
+  width: 200px;
+  position: relative
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  border-radius:22px;
+  height: 270px;
+
+  
+
+
+}
+body {
+  background-color: black;
+}
+nav {
+  position:absolute;
+  top: 200px;
+  right: 240px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 22px;
+
+}
+
+nav a {
+   text-transform: uppercase;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+nav a:hover {
+  color:rgb(0, 255, 76) ;
+  }
+
+#bordar-inicial {
+text-align: center;
+font-size: 100px;
+position: absolute;
+top: 50px;
+right: 600px;
+font-weight: bold;
+box-shadow: 10px 10px 40px black;
+background-color: rgb(228, 228, 228);
+font-family: 'Comforter Brush', cursive;
+
+
+}
+
+.principal {
+  color: aliceblue;
+}
+
+.principal h2 {
+  text-align: center;
+  padding: 70px 0 70px;
+  font-weight: bold;
+  font-size: 70px;
+  font-style: italic;
+}
+
+.principal p {
+  text-align: center;
+  font-size: 17px;
+}
+
+.principal b {
+ font-weight: bold;
+ font-style: italic;
+}
+
+#meio{
+  margin: 1px 390px 0px;
+}
+
+#meio2 {
+  margin: 1px 290px 0px;
+}
+
+#utensilios {
+  width: 180px;
+  border-radius: 900px;
+  height: 180px;
+  margin:20px 160px 90px;
+  position:absolute;
+}
+
+#mapa2 {
+  margin: 90px 483px 50px ;
+  
+}
+
+.titulomapa {
+  margin: 70px 460px 50px ;
+  text-align: center;
+  font-size: 40px;
+  color: aliceblue;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.titulomap  {
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.titulomapa::before {
+  content: '💈';
+}
+
+  @media  screen and (max-width: 480px) {
+    
+
+  }
+  

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="box">
+      <h1><img class="imagem-principal" src="https://th.bing.com/th/id/OIP.GigEUaImI1zb9ULJ6lCCYQHaGx?pid=ImgDet&rs=1" alt="Logo da Barbearia Alura"></h1>
+     
+     <h2 id="bordar-inicial">Barbearia Alura</h2>
+       <br>
+       <nav>
+       <ul>
+       <li><a href="/projeto_alura2/home/projeto2.html">Home</a></li>
+        <li><a href="/projeto_alura2/Produtos/produtos.html">Produtos</a></li>
+        <li><a href="/projeto_alura2/Contatos/contatos.html">Agendar</a></li>
+        <li><a href="/projeto_alura2/Sobre/Sobre.html">Sobre</a></li>
+        </ul>
+        </nav>   </div>
+</header>
+  
+ <main>
+   <form id="Boxform" action="">
+     <p style="text-align: center; font-size:x-large; font-weight: bold;">Agendamento</p>
+     <br><br><br>
+    <label class="inputlabel" for="inputUser">Nome</label >
+     <input type="text" class="inputUser" required>
+     <br>
+     <fieldset></fieldset>
+     <label class="inputlabel" for="inputUser">Telefone</label>
+     <input type="tel" class="inputUser" required placeholder="(00) 00000-0000">
+    <br>
+     <label class="inputlabel" for="inputUser">Email</label>
+     <input type="email" class="inputUser" required>
+    </fieldset>
+     <br>
+     <label for="date">Data</label>
+     <input type="date" id="date" required>
+     <br><br>
+     <label for="time">Horario</label>
+     <input type="time" id="time" required>
+    <br><br>
+    <label> <input type="checkbox"> Gostaria de receber nossas novidades por email ?</label>
+     <input class="submit" type="submit" value="Agendar">
+     
+   </form>
+
+              <table>
+              <thead>
+                <tr>
+                  <th>Dia</th>
+                  <th>Horario</th>
+                 </tr>
+              </thead>
+     <tbody></tbody>
+     <tr>
+       <td>Segunda</td>
+       <td>10h às 20h</td>
+     </tr>
+     <tr>
+       <td>Quarta</td>
+       <td>10h às 20h</td>
+     </tr>
+     <tr>
+       <td>Sexta</td>
+       <td>10h às 18h</td>
+     </tr>
+    </tbody>
+   </table>
+ </main>
+</body>
+</html>

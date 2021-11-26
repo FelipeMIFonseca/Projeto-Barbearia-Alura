@@ -1,0 +1,200 @@
+.imagem-principal {
+  border-radius: 7px;
+  height: 160px;
+  width: 200px;
+  position: relative
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  border-radius:22px;
+  height: 270px;
+
+  
+
+
+}
+body {
+  background-color: black;
+}
+nav {
+  position:absolute;
+  top: 200px;
+  right: 240px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 22px;
+
+}
+
+nav a {
+   text-transform: uppercase;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   font-size: 20px;
+   text-decoration: none;
+}
+nav a:hover {
+color:rgb(0, 255, 76) ;
+
+}
+
+#bordar-inicial {
+  text-align: center;
+  font-size: 100px;
+  position: absolute;
+  top: 50px;
+  right: 600px;
+  font-weight: bold;
+  box-shadow: 10px 10px 40px black;
+background-color: rgb(228, 228, 228);
+
+  font-family: 'Comforter Brush', cursive;
+
+}
+
+#img1 {
+  height: 350px;
+  width:400px;
+  border-radius: 100%;
+  position: absolute;
+  left: 1000px;
+  top: 350px;
+}
+
+.boxdegrade {
+  background-color: rgb(0, 0, 0);
+  left: 1000px;
+  top: 710px;
+  position:absolute;
+  height: 100px;
+  width:400px;
+  border-radius: 200px;
+ text-align: center;
+  padding: 2px;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  border: 2px solid black;
+}
+
+#img2 {
+  height: 350px;
+  width:400px;
+  border-radius: 100%;
+  position: absolute;
+  left: 550px;
+  top: 350px;
+}
+
+#boxarte {
+  background-color: rgb(0, 0, 0);
+  left: 550px;
+  top: 710px;
+  position:absolute;
+  height: 100px;
+  width:400px;
+  border-radius: 200px;
+ text-align: center;
+  padding: 2px;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  border: 2px solid black;
+}
+
+#img3 {
+  height: 350px;
+  width:400px;
+  border-radius: 100%;
+  position: absolute;
+  left: 90px;
+  top: 350px;
+}
+
+#boxblindado {
+  background-color: rgb(0, 0, 0);
+  left: 85px;
+  top: 710px;
+  position:absolute;
+  height: 100px;
+  width:400px;
+  border-radius: 200px;
+ text-align: center;
+  padding: 2px;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  border: 2px solid black;
+}
+
+#img4 {
+  height: 350px;
+  width:400px;
+  border-radius: 100%;
+  position: absolute;
+  left: 550px;
+  top: 850px;
+  
+}
+
+#boxdread {
+  background-color: rgb(0, 0, 0);
+  left: 550px;
+  top: 1215px;
+  position:absolute;
+  height: 100px;
+  width:400px;
+  border-radius: 200px;
+ text-align: center;
+  padding: 2px;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+ border: 2px solid black;
+}
+
+#boxdread:hover {
+  border-color: aqua;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#boxdread:active {
+  border-color: blue;
+}
+
+#boxblindado:hover {
+  border-color: aqua;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#boxblindado:active {
+  border-color: blue;
+}
+
+#boxarte:hover {
+  border-color: aqua;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#boxarte:active {
+  border-color: blue;
+ }
+
+.boxdegrade:hover {
+  border-color: aqua;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.boxdegrade:active {
+  border-color: blue;
+}

@@ -1,0 +1,166 @@
+.imagem-principal {
+  border-radius: 7px;
+  height: 160px;
+  width: 200px;
+  position: relative
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  border-radius:22px;
+  height: 270px;
+
+  
+
+
+}
+body {
+  background-color: black;
+}
+nav {
+  position:absolute;
+  top: 200px;
+  right: 240px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 22px;
+
+}
+
+nav a {
+   text-transform: uppercase;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+nav a:hover {
+  color:rgb(0, 255, 76) ;
+  }
+
+#bordar-inicial {
+  text-align: center;
+  font-size: 100px;
+  position: absolute;
+  top: 50px;
+  right: 600px;
+  font-weight: bold;
+  box-shadow: 10px 10px 40px black;
+  background-color: rgb(228, 228, 228);
+  font-family: 'Comforter Brush', cursive;
+
+}
+
+#imgdegrade {
+  height: 350px;
+  width:430px;
+  border-radius: 22px;
+  position: absolute;
+  left: 200px;
+  top: 400px;
+
+}
+
+#degrade {
+  background-color: rgb(0, 0, 0);
+  width: 450px;
+  height: 150px;
+  position: absolute;
+  left:  510px;
+  top: 550px;
+  border-radius: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+ font-size: 20px;
+ text-align: center;
+ padding: 60px;
+ color: white;
+}
+
+#imgdesenho {
+  height: 350px;
+  width:400px;
+  border-radius: 7px;
+  position: absolute;
+  left: 900px;
+  top: 950px;
+
+}
+
+#desenho {
+
+  background-color: rgb(0, 0, 0);
+  width: 450px;
+  height: 150px;
+  position: absolute;
+  left:  385px;
+  top: 1190px;
+  border-radius: 200px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+ font-size: 20px;
+ text-align: center;
+ padding: 60px;
+ color: white;
+
+}
+
+#imgblindado {
+  height: 350px;
+  width:430px;
+  border-radius: 22px;
+  position: absolute;
+  left: 200px;
+  top: 1500px;
+
+}
+
+#blindado {
+
+  background-color: rgb(0, 0, 0);
+  width: 350px;
+  height: 150px;
+  position: absolute;
+  left:  550px;
+  top: 1700px;
+  border-radius:100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+ font-size: 20px;
+ text-align: center;
+ padding: 60px;
+ color: white;
+}
+
+#dreadmsc {
+  height: 350px;
+  width:390px;
+  border-radius: 22px;
+  position: absolute;
+  left: 900px;
+  top: 2100px;
+}
+
+#dread {
+  background-color: rgb(0, 0, 0);
+  width: 310px;
+  height: 150px;
+  position: absolute;
+  left:  550px;
+  top: 2350px;
+  border-radius:200px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+ font-size: 20px;
+ text-align: center;
+ padding: 60px;
+ color: white;
+}
+
+
